@@ -17,3 +17,8 @@ console.log(longNames)
 // passed as an argument to a function,
 // and stored in an object's property.
 // One confusing syntax is when an arrow function is stored in a variable.
+
+const colors = ['red', 'blue', 'yellow', 'orange', 'black'];
+
+const crazyColors = colors.map(color => color.split('').reverse().join(''));
+console.log('colors', crazyColors)
