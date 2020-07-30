@@ -8,6 +8,7 @@ console.log("__")
 const solution = ['Farrin', 'Kagure', 'Asser'].map(name => name.toUpperCase());
 console.log(solution)
 
+console.log("--=_=__".repeat(30))
 const names = ['Afghanistan', 'Aruba', 'Bahamas', 'Chile', 'Fiji', 'Gabon', 'Luxembourg', 'Nepal', 'Singapore', 'Uganda', 'Zimbabwe'];
 
 const longNames = names.filter(name => name.length > 6);
