@@ -3,6 +3,8 @@ const upperizedNames = ['Farrin', 'Kagure', 'Asser'].map(function(name) {
   return name.toUpperCase();
 });
 
+console.log("__")
+
 const solution = ['Farrin', 'Kagure', 'Asser'].map(name => name.toUpperCase());
 console.log(solution)
 
